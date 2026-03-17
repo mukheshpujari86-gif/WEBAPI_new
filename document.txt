@@ -1,0 +1,7 @@
+install:
+Microsoft.entityframeworkcore.sqlserver 8.0.0
+Microsoft.entityframeworkcore.tools 8.0.0
+
+migration:
+Add-Migration "Intial database"
+update-database
